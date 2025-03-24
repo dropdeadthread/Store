@@ -182,3 +182,4 @@ This project is intended to be extended by you! We wanted to make possible to re
 - [BigCommerce](https://bigcommerce.zfrcsk.net/c/2429593/854992/2941) for a headless e-commerce solution
 - [Builder](https://www.builder.io) as a CMS for the blog articles or other content creation
 - [Klaviyo](https://www.klaviyo.com/) for any email or SMS marketing automation
+Update: Trigger Netlify Deployment 🚀
