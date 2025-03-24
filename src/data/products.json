@@ -1,0 +1,457 @@
+[
+    {
+        "handle": "ryan-donavon-dawn-of-donavon-unisex-tee",
+        "title": "Ryan Donavon \"Dawn of Donavon\" unisex tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "ryan-donavon-attitude-tee",
+        "title": "Ryan Donavon \" Attitude Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "ruthless-ryan-donavon-unisex-tee",
+        "title": "Ryan Donavon \"Ruthless\" Unisex Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "cyber-girl-ladies-fit",
+        "title": "Cyber Girl Ladies Fit",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "cyber-girl",
+        "title": "Cyber Girl",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "caffeine-before-death-1",
+        "title": "Death Before Decaf!",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "caffeine-before-death",
+        "title": "Death Before Decaf!",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "algonquin-college-pullover-hoodie",
+        "title": "Algonquin College \"Welding and Fabrications techniques\" Pullover Hoodie",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "algonquin-college-unisex-long-sleeve-tee",
+        "title": "Algonquin College \"Welding and Fabrications techniques\" Unisex Long sleeve Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "algonquin-college-ladies-tee",
+        "title": "Algonquin College \"Welding and Fabrications techniques\" Ladies Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "algonquin-college-welding-unisex-tee",
+        "title": "algonquin college \"Welding and Fabrications techniques\" unisex tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-zip-up-hoodie-1",
+        "title": "SVW Classic Logo Zip up Hoodie",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-youth-t-shirt",
+        "title": "Svw Classic Logo Youth T shirt",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-ashes-logo-zip-up-hoodie",
+        "title": "Le Revenant \"Ashes\" Logo Zip Up Hoodie",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-ashes-logo-pullover-hoodie",
+        "title": "Le Revenant \"Ashes\" Logo Pullover",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-trucker-hat-classic-logo",
+        "title": "Le Revenant Trucker hat \"Classic\" Logo",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-trucker-hat-ashes-logo",
+        "title": "Le Revenant Trucker hat \"Ashes\" Logo",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-pro-team-ladies-tee-white",
+        "title": "SVW Classic Logo Pro Team Ladies Tee White",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-unisex-pro-team-tee-white",
+        "title": "SVW Classic Logo Unisex Pro Team Tee white",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-sleeveless-tee-white",
+        "title": "SVW Classic logo Sleeveless Tee White",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-trucker-hat",
+        "title": "SVW Classic Logo Trucker Hat",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-pullover-hoodie",
+        "title": "SVW Classic Logo Pullover Hoodie",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-pro-team-ladies",
+        "title": "SVW Classic Logo Pro Team Ladies Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-pro-team-tee",
+        "title": "SVW Classic Logo Unisex Pro Team tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-sleeveless-tee",
+        "title": "SVW Classic logo Sleeveless Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-ladies",
+        "title": "Svw Classic Logo Ladies T shirt",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "svw-classic-logo-unisex-t-shirt",
+        "title": "SVW Classic Logo Unisex T-shirt",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-ashes-ladies-tee",
+        "title": "Le Revenant- Ashes-Ladies Tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "le-revenant-ashes-unisex-tshirt",
+        "title": "Le Revenant-Ashes Unisex T-shirt",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "satan-meister",
+        "title": "Goat Lover",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "gothic-logo",
+        "title": "Gothic Logo",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "outlaw-unisex-tee",
+        "title": "Drop Dead Thread \"Outlaw\" Unisex tee",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "ddt-logo",
+        "title": "DDT Zombie Head",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "fearless-and-powerful",
+        "title": "Fearless and Powerful!",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    },
+    {
+        "handle": "vampires-suck",
+        "title": "Vampires Suck!",
+        "body_html": "No description available.",
+        "image": {
+            "src": "https://example.com/default-image.jpg"
+        },
+        "variants": [
+            {
+                "price": "0.00"
+            }
+        ]
+    }
+]

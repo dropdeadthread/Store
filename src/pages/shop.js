@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { graphql } from 'gatsby';
 import * as styles from './shop.module.css';
 
 import Banner from '../components/Banner';
@@ -10,83 +11,51 @@ import Icon from '../components/Icons/Icon';
 import Layout from '../components/Layout';
 import LayoutOption from '../components/LayoutOption';
 import ProductCardGrid from '../components/ProductCardGrid';
-import { generateMockProductData } from '../helpers/mock';
 import Button from '../components/Button';
-import Config from '../config.json';
 
-const ShopPage = (props) => {
+const ShopPage = ({ data }) => {
   const [showFilter, setShowFilter] = useState(false);
-  const data = generateMockProductData(6, 'woman');
-
-  useEffect(() => {
-    window.addEventListener('keydown', escapeHandler);
-    return () => window.removeEventListener('keydown', escapeHandler);
-  }, []);
-
-  const escapeHandler = (e) => {
-    if (e?.keyCode === undefined) return;
-    if (e.keyCode === 27) setShowFilter(false);
-  };
+  const products = data.allProductsJson.nodes; // ✅ Use real products from GraphQL
 
   return (
     <Layout>
       <div className={styles.root}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.breadcrumbContainer}>
-            <Breadcrumbs
-              crumbs={[
-                { link: '/', label: 'Home' },
-                { link: '/', label: 'Woman' },
-                { label: 'Sweaters' },
-              ]}
-            />
+            <Breadcrumbs crumbs={[{ link: '/', label: 'Home' }, { label: 'Shop' }]} />
           </div>
         </Container>
-        <Banner
-          maxWidth={'650px'}
-          name={`Woman's Sweaters`}
-          subtitle={
-            'Look to our women’s sweaters for modern takes on one-and-done dressing. From midis in bold prints to dramatic floor-sweeping styles and easy all-in-ones, our edit covers every mood.'
-          }
-        />
+
+        <Banner maxWidth={'650px'} name={'Shop All Products'} subtitle={'Browse our latest designs and apparel.'} />
+
         <Container size={'large'} spacing={'min'}>
           <div className={styles.metaContainer}>
-            <span className={styles.itemCount}>476 items</span>
+            <span className={styles.itemCount}>{products.length} items</span>
             <div className={styles.controllerContainer}>
-              <div
-                className={styles.iconContainer}
-                role={'presentation'}
-                onClick={() => setShowFilter(!showFilter)}
-              >
+              <div className={styles.iconContainer} role={'presentation'} onClick={() => setShowFilter(!showFilter)}>
                 <Icon symbol={'filter'} />
                 <span>Filters</span>
               </div>
-              <div
-                className={`${styles.iconContainer} ${styles.sortContainer}`}
-              >
+              <div className={`${styles.iconContainer} ${styles.sortContainer}`}>
                 <span>Sort by</span>
                 <Icon symbol={'caret'} />
               </div>
             </div>
           </div>
-          <CardController
-            closeFilter={() => setShowFilter(false)}
-            visible={showFilter}
-            filters={Config.filters}
-          />
+
+          <CardController closeFilter={() => setShowFilter(false)} visible={showFilter} />
+
           <div className={styles.chipsContainer}>
             <Chip name={'XS'} />
             <Chip name={'S'} />
           </div>
+
           <div className={styles.productContainer}>
-            <span className={styles.mobileItemCount}>476 items</span>
-            <ProductCardGrid data={data}></ProductCardGrid>
+            <ProductCardGrid products={products} />
           </div>
+
           <div className={styles.loadMoreContainer}>
-            <span>6 of 456</span>
-            <Button fullWidth level={'secondary'}>
-              LOAD MORE
-            </Button>
+            <Button fullWidth level={'secondary'}>LOAD MORE</Button>
           </div>
         </Container>
       </div>
@@ -97,3 +66,22 @@ const ShopPage = (props) => {
 };
 
 export default ShopPage;
+
+// ✅ GraphQL Query to Fetch Products
+export const query = graphql`
+  query {
+    allProductsJson {
+      nodes {
+        handle
+        title
+        body_html
+        image {
+          src
+        }
+        variants {
+          price
+        }
+      }
+    }
+  }
+`;

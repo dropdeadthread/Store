@@ -17,12 +17,28 @@
     "plop": "plop"
   },
   "dependencies": {
-    "gatsby": "^5.13.3",
+    "gatsby": "^5.14.1",
     "gatsby-adapter-netlify": "^1.1.3",
+    "gatsby-plugin-image": "^3.14.0",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-netlify": "^5.1.1",
+    "gatsby-plugin-offline": "^6.14.0",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "gatsby-plugin-react-helmet": "^6.14.0",
+    "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-json": "^5.14.0",
+    "gatsby-transformer-sharp": "^5.14.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss": "^8.5.3",
+    "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
-    "react-slick": "^0.30.2"
+    "react-slick": "^0.30.2",
+    "typeface-creepster": "^1.1.13",
+    "typeface-dm-sans": "^1.1.13",
+    "webpack": "^5.98.0"
   },
   "devDependencies": {
     "plop": "^3.0.5",
